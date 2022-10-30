@@ -1,0 +1,85 @@
+body {
+    box-sizing: border-box;
+    width: 100vw;
+    height: 1600px;
+}
+#logo box {
+    width: 50vw;
+    height:70px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+img {
+    width: 50vw;
+    height: 200px;
+    margin-left: 25vw;
+}
+.border {
+    height: 1300px;
+    width: 90vw;
+    border: 3px solid gray;
+    padding-left: 7vw;
+}
+.create {
+        font-size: 60px;
+        font-family: verdana;
+    }
+    label {
+        display: block;
+        font-size: 25px;
+        font-style: bold;
+        position: relative;
+        top: 73px;
+        font-family: verdana;
+        
+    }
+    input {
+        width: 76vw;
+        height: 70px;
+        margin-top: 75px;
+        font-size: 25px;
+        font-style: italic ;
+    }
+    button {
+        width: 76vw;
+        height: 70px;
+        margin-top: 75px;
+        background-color: rgba(255, 255, 0, 1);
+        font-size: 25px;
+        font-family: verdana;
+    }
+    .condition {
+        margin-top: 75px;
+        font-size: 22px;
+        font-family: verdana;
+    }
+    a {
+        text-decoration: none;
+        font-family: verdana;
+    }
+    input:active {
+        border:2px solid yellow;
+    }
+button:active {
+    transform: scale(1.1);
+}
+.i {
+    color: blue;
+    font-style: italic;
+    font-size: 15px;
+}
+.pass {
+    font-size: 15px;
+    margin-left: 3px;
+}
+a:hover {
+    color: black;
+}
+@media (max-width:700px) and (min-width: 350px) {
+.border {
+    max-width: 86vw;
+}
+body {
+    height: 1700px;
+}
+}
